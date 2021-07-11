@@ -1,0 +1,20 @@
+{
+  "name": "Data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server1": "json-server --watch users.json -p 5000",
+    "json:server2": "json-server --watch invitations.json -p 5001",
+    "json:server3": "json-server --watch invitations_update.json -p 5002"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "react-scripts": "^1.0.0",
+    "save": "^2.4.0"
+  }
+}
